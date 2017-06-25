@@ -1,0 +1,53 @@
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  -webkit-box-shadow:none;
+  background:inherit;
+  text-decoration:underline;
+}
+
+.navbar.navbar-default {
+  border-radius:0px;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+}
+
+.navbar-nav > li > a, .navbar-brand {
+  padding:6px;
+}
+
+.navbar {
+  min-height:10px;
+  background:#000;
+  border-radius:0px;
+}
+
+.mock-search::before {
+  font-family:'Glyphicons Halflings';
+  font-size:10px;
+  content:"\e003";
+  padding-right:5px;
+}
+
+.mock-search {
+  border:1px solid #fff;
+  padding:0px;
+  margin:2px;
+}
+
+.nav.navbar-nav {
+  display:inline-block;
+  float:none;
+  vertical-align:top;
+  text-align:center;
+  margin:0 auto;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a.mock-search {
+  padding:1px;
+  margin:4px;
+}
+
+.navbar.navbar-collapse {
+  text-align:center;
+}
+

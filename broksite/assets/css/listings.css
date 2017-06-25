@@ -1,0 +1,47 @@
+.listing-title-container {
+  padding:52px;
+  font-family:'Open Sans';
+  background:rgba(255,255,255,0.77);
+}
+
+.listing-title-container > h2 {
+  margin:0px;
+  font-weight:lighter;
+}
+
+.listing-title-container > p {
+  margin:0px;
+  font-weight:bold;
+  font-size:20px;
+  padding-top:8px;
+}
+
+.row.features {
+  border-top:1px solid #000;
+  border-bottom:1px solid #000;
+}
+
+.row.features > .bed {
+  text-align:left;
+}
+
+.row.features > .bath {
+  text-align:center;
+}
+
+.row.features > .sqft {
+  text-align:right;
+}
+
+.row.features > div > h1 {
+  font-weight:100;
+  font-size:5rem;
+}
+
+.form-control.input-lg, textarea.form-control {
+  box-shadow:none;
+  border:1px solid #000;
+  border-radius:0px;
+  margin:10px;
+}
+

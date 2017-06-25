@@ -1,0 +1,401 @@
+.placard {
+  padding:9px;
+  background:#fff;
+  background:rgba(255,255,255,0.43);
+  display:inline-table;
+  margin:auto;
+  border-radius:4px;
+  margin-top:40px;
+}
+
+.placard > h1 {
+  font-family:'Open Sans', sans-serif;
+  font-weight:lighter;
+  border-bottom:1px solid #000;
+  padding:10px 20px;
+  margin-bottom:0px;
+}
+
+.placard > div {
+  padding:20px;
+}
+
+.placard-container {
+  padding:140px 70px;
+}
+
+.bio {
+  padding:30px 0px;
+  font-family:'Open Sans', sans-serif;
+}
+
+.bio > h1 {
+}
+
+.btn.btn-default.cta {
+  background:rgba(255,255,255,0.63);
+  color:#000;
+  border:1px solid #fff;
+  text-transform:uppercase;
+  font-family:'Open Sans', sans-serif;
+  text-shadow:none;
+  font-size:30px;
+  font-weight:lighter;
+  letter-spacing:6px;
+  border-radius:0px;
+}
+
+html, body {
+  font-family:'Open Sans', sans-serif;
+}
+
+.socials > a > i {
+  color:#fff;
+}
+
+@media (max-width:992px) {
+  .footer-txt {
+    padding:22px 0px;
+    text-align:center;
+    color:#000;
+  }
+}
+
+.footer-txt {
+  padding:27px 0px;
+  color:#fff;
+}
+
+@media (min-width:992) {
+  .navbar-collapse {
+    display:inline-block!important;
+  }
+}
+
+video#bgvid {
+  position:fixed;
+  top:50%;
+  left:50%;
+  min-width:100%;
+  min-height:100%;
+  width:auto;
+  height:auto;
+  z-index:-100;
+  -ms-transform:translateX(-50%) translateY(-50%);
+  -moz-transform:translateX(-50%) translateY(-50%);
+  -webkit-transform:translateX(-50%) translateY(-50%);
+  transform:translateX(-50%) translateY(-50%);
+  background:url(polina.jpg) no-repeat;
+  background-size:cover;
+}
+
+.socials {
+  font-size:43px;
+}
+
+.socials > a {
+  padding:5px;
+}
+
+.socials > a img {
+  height:35px;
+}
+
+@media (max-width:1199px) {
+  .covervid-wrapper {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+  }
+}
+
+@media (max-width:991px) {
+  .covervid-wrapper {
+    visibility:hidden;
+  }
+}
+
+@media (max-width:991px) {
+  .header-container {
+    background-image:url(../../assets/img/jordan-mcqueen-157507.jpg);
+  }
+}
+
+@media (min-width:992px) {
+  .hero-number {
+    color:#fff;
+    font-family:'Raleway';
+    position:absolute;
+    right:60px;
+    float:right;
+  }
+}
+
+@media (max-width:991px) {
+  .hero-number {
+    color:#fff;
+    font-family:'Raleway';
+    position:static;
+    display:none;
+    visibility:hidden;
+  }
+}
+
+@media (max-width:991px) {
+  .navbar.navbar-default.navigation-clean-search.text-center {
+    display:inherit;
+  }
+}
+
+@media (max-width:1199px) {
+  .navbar.navbar-default.navigation-clean-search.text-center {
+    display:inline-block;
+    padding:0px;
+  }
+}
+
+.navbar-header {
+  padding:0px;
+}
+
+.navbar-toggle {
+  float:none;
+  margin:0px;
+}
+
+.search-form::after {
+}
+
+.location-container {
+  border-bottom:1px solid #555;
+  margin:3px;
+  width:320px;
+  cursor:pointer;
+}
+
+.location-container:hover {
+}
+
+.loc-img {
+  width:120px;
+  height:120px;
+  display:inline-block;
+  float:left;
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-right:8px;
+}
+
+.loc-text {
+  display:inline-block;
+  height:123px;
+  max-width:170px;
+}
+
+.loc-text > .desc {
+  font-size:10px;
+  font-family:'Open Sans';
+}
+
+.loc-text > .title {
+  font-size:15px;
+}
+
+#searchmenu {
+}
+
+#search-field::placeholder {
+  color:rgba(255,255,255,0.9);
+}
+
+.location-container:last-child {
+  border-bottom:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding:7px;
+}
+
+#mainnav {
+  margin-bottom:0px;
+  display:inline-block;
+  background-color:#000;
+  padding:0px;
+  width:100%;
+}
+
+.row.features > div > h1 {
+  font-size:3em;
+  font-weight:lighter;
+  font-family:'Open Sans';
+  margin:30px 0px;
+}
+
+.section-title {
+  font-family:'Open Sans';
+  font-weight:lighter;
+  font-size:5rem;
+}
+
+@media (max-width:991px) {
+  .feat-info > h1 {
+    text-align:center;
+  }
+}
+
+.row.features {
+  padding:20px;
+}
+
+.col-md-12.listing-img-container {
+  overflow:auto;
+  padding:0px;
+  white-space:nowrap;
+}
+
+.listing-img {
+  display:inline-table;
+  height:170px;
+  width:280px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  transition:all 0.4s;
+  cursor:pointer;
+}
+
+.listing-img:hover {
+  transform:scale(1.01);
+}
+
+.navbar.navbar-default.navigation-clean-search.affix {
+  box-shadow:0px 1px 2px rgba(0,0,0,0.2),0px 2px 7px rgba(0,0,0,0.1);
+}
+
+.carousel-control.right {
+  background:none;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  text-shadow:none;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+  margin:0px;
+}
+
+.carousel-control.left {
+  background:none;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  text-shadow:none;
+}
+
+.navbar.navbar-default.navigation-clean-search {
+  min-height:20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+}
+
+.lh-listing {
+}
+
+.lh-info {
+  padding-top:130px;
+  color:#fff;
+}
+
+.lh-listing > .container-fluid {
+  background:rgba(0,0,0,0.3);
+}
+
+.lh-info > .desc {
+  padding:22px 0px;
+}
+
+.detail-light {
+  background:rgba(255,255,255,0.6);
+  color:#000;
+  padding:15px;
+}
+
+.detail {
+  background:rgba(0,0,0,0.6);
+  color:#fff;
+  padding:15px;
+}
+
+.detail > div > h2 {
+  font-weight:100;
+}
+
+.ghost {
+  background:none;
+  border-radius:0px;
+  text-shadow:none;
+  color:#fff;
+  font-weight:100;
+}
+
+.lh-container {
+  padding-bottom:100px;
+}
+
+.ghost-dark {
+  border:1px solid #000;
+  background:none;
+  color:#000;
+  text-shadow:none;
+  border-radius:0px;
+}
+
+.btn.btn-default.ghost-dark:focus {
+  background:none;
+  border:1px solid black;
+  color:black;
+}
+
+.btn.btn-default.ghost-dark:hover {
+  background:#000;
+  color:#fff;
+}
+
+.detail-light > div > h2 > .lh-icon {
+  border:1px solid #000;
+}
+
+.lh-form {
+  padding:20px;
+}
+
+.lh-form > .form-control {
+  margin:5px 0px;
+  background:#fafafa;
+  border:0px;
+  box-shadow:0px 1px 2px rgba(0,0,0,0.2),0px 2px 4px rgba(0,0,0,0.1);
+  border-bottom:2px solid #aaa;
+  border-top:1px solid #fff;
+}
+
+.blg-post > div {
+  height:320px;
+}
+
+.blg-post {
+  background:#f8f8f8;
+  padding:12px 12px;
+}
+
+.lh-form > .form-control:hover, .lh-form > .form-control:active, .lh-form > .form-control:hover:focus {
+  box-shadow:0px 2px 4px rgba(0,0,0,0.2),0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.blg-post > p {
+  padding:14px 0px;
+}
+

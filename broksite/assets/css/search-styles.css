@@ -1,0 +1,115 @@
+html, body {
+  height:100%;
+}
+
+.sb-container {
+  min-height:100%;
+  background:#000;
+  text-align:center;
+  color:#fff;
+  padding:135px;
+}
+
+@media (max-width:991px) {
+  .sb-container {
+    height:100%;
+    background:#000;
+    text-align:center;
+    color:#fff;
+    padding:135px 40px;
+  }
+}
+
+.sb-container > h1, .sb-container > h2 {
+  margin:0px;
+  font-family:'Raleway';
+  padding-bottom:12px;
+}
+
+.sb-search {
+  background:rgba(255,255,255,0.26);
+  border:none;
+  border-radius:0px;
+  text-align:center;
+  font-size:33px;
+  font-family:'Raleway';
+  padding:0px;
+  color:#fff;
+  margin-bottom:40px;
+  margin-top:30px;
+}
+
+@media (max-width:767px) {
+  .sb-search {
+    background:rgba(255,255,255,0.06);
+    border:none;
+    border-radius:0px;
+    text-align:center;
+    font-size:33px;
+    font-family:'Raleway';
+    padding:0px;
+    overflow:visible;
+    content:"Location";
+  }
+}
+
+.listing-container {
+  overflow:hidden;
+  padding:0px 0px;
+  padding-top:140px;
+  font-family:'Raleway';
+}
+
+.listing-container > h4 {
+  margin:0px;
+  font-family:'Raleway';
+  border-bottom:2px solid #fff;
+  font-size:30px;
+  background:rgba(0,0,0,0.33);
+  transition:all 0.4s;
+  transform:translateY(100px);
+  z-index:-1;
+  padding:10px 0px;
+}
+
+@media (max-width:991px) {
+  .listing-container > h4 {
+    margin:0px;
+    font-family:'Raleway';
+    border-bottom:2px solid #fff;
+    font-size:30px;
+    background:rgba(0,0,0,0.33);
+    transition:all 0.4s;
+    transform:translateY(0px);
+    z-index:-1;
+    padding:10px 0px;
+  }
+}
+
+.listing-container:hover > h4 {
+  margin:0px;
+  font-family:'Raleway';
+  border-bottom:2px solid #fff;
+  font-size:20px;
+  background:rgba(0,0,0,0.33);
+  transition:all 0.4s;
+  transform:translateY(0%);
+}
+
+.listing-container > div {
+  padding:20px 0px;
+}
+
+.listing-container > div > a {
+  color:#fff;
+  margin-bottom:0px;
+  font-size:30px;
+  border:1px solid #fff;
+  padding:10px;
+}
+
+.listing-container > div > a:hover {
+  color:#fff;
+  text-decoration:underline;
+}
+
