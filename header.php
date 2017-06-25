@@ -22,9 +22,9 @@
 </head>
 
 <body <?php body_class();?>>
-    <div data-bs-parallax-bg="true" class="header-container" style="background-position:center;background-size:cover; background-color: green">
+    <div data-bs-parallax-bg="true" class="header-container" style="background-position:center;background-size:cover;">
        
-        <div class="header-dark text-center" style="background-image:url(&quot;none&quot;);background-color:inherit;overflow:auto;">
+        <div class="header-dark text-center" style="background-image:url(&quot;none&quot;);overflow:auto;">
            
             <div class="container hero text-center"><img src="<?php echo get_template_directory_uri();?>/assets/img/logo.svg" style="padding-top:50px;">
             <a class="hidden-xs hidden-sm hero-number" href="#" style="font-family:'Open Sans';padding-top:80px;font-size:26px;font-weight:lighter;">310.710.6387 </a>
@@ -43,14 +43,14 @@
                         
                     <?php
 
-                    $defaults = array('container' => 'ul', 
-                        'theme_location' => 'primary-menu',
-                        'menu_class' => 'navbar navbar-default navigation-clean-search text-center'
+                    // $defaults = array('container' => 'ul', 
+                    //     'theme_location' => 'primary-menu',
+                    //     'menu_class' => 'navbar navbar-default navigation-clean-search text-center'
 
 
-                     );
+                    //  );
 
-                            wp_nav_menu( $defaults );
+                    //         wp_nav_menu( $defaults );
 
 
                     ?>
